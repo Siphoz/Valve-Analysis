@@ -1,7 +1,6 @@
 # Machine Learning-Based Valve Cost Estimation
 
-
-![Valve Picture]([https://example.com/profile.jpg](https://imgur.com/a/YyehJGn))
+![Valve Picture]([Imgur](https://imgur.com/i8YjCkq))
 
 
 ## Project Overview
