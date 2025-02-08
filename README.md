@@ -1,4 +1,4 @@
-#### Highlighted Project: Machine Learning-Based Valve Cost Estimation
+#### Machine Learning-Based Valve Cost Estimation
 
 ##### Project Overview
 - This project leverages machine learning to address missing cost data for industrial valves, improving cost prediction accuracy. By applying advanced data imputation techniques and predictive models, we enhanced cost estimation reliability for engineering and procurement teams.
