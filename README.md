@@ -12,6 +12,9 @@ This project leverages machine learning to predict the costs of industrial valve
 ## Methodology & Tools
 **1. Data Processing & Preparation**
 - Data Cleaning & Manipulation: Python, Pandas, NumPy
+
+![Preprocessing](Pics/Preprocess.jpg)
+
 - Feature Engineering: Column Transformer, Ordinal Encoding, One-Hot Encoding, MinMax Scaling, SelectPercentile
 
 **2. Exploratory Data Analysis (EDA)**
