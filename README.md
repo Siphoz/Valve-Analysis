@@ -1,12 +1,16 @@
-#### Machine Learning-Based Valve Cost Estimation
+# Machine Learning-Based Valve Cost Estimation
 
-##### Project Overview
+
+![Valve Picture]([https://example.com/profile.jpg](https://imgur.com/a/YyehJGn))
+
+
+## Project Overview
 - This project leverages machine learning to address missing cost data for industrial valves, improving cost prediction accuracy. By applying advanced data imputation techniques and predictive models, we enhanced cost estimation reliability for engineering and procurement teams.
 
-##### Problem Statement
+## Problem Statement
 - Missing cost data in valve procurement can lead to inaccurate estimates, affecting budgeting and decision-making. This project develops a machine learning solution to fill data gaps and provide more precise cost predictions.
 
-##### Data Sources
+### Data Sources
 - Historical Cost Data: Centralized records from multiple engineering projects
 - Cleopatra Costing Database: Additional valve specifications and pricing information
 
