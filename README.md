@@ -10,21 +10,29 @@ This project leverages machine learning to predict the costs of industrial valve
 - **Cleopatra Costing Database**: Additional valve specifications and pricing information
 
 ## Methodology & Tools
-**1. Data Processing & Preparation**
-- Data Cleaning & Manipulation: Python, Pandas, NumPy
+### 1. Data Processing & Preparation
+- **Data Cleaning & Manipulation**: Python, Pandas, NumPy
+- **Feature Engineering**: Column Transformer, Ordinal Encoding, One-Hot Encoding, MinMax Scaling, SelectPercentile
 
-![Preprocessing](Pics/Preprocess.jpg)
+<img src="Pics/Prepocess.jpg" alt="Preprocessing" width="850"/>
 
-- Feature Engineering: Column Transformer, Ordinal Encoding, One-Hot Encoding, MinMax Scaling, SelectPercentile
+### 2. Exploratory Data Analysis (EDA)
+- **Visualization Tools**: Matplotlib, Seaborn
+- **Key Insights**: Identified weight, size, and pressure rating as primary cost drivers
 
-**2. Exploratory Data Analysis (EDA)**
-- Visualization Tools: Matplotlib, Seaborn
-- Key Insights: Identified weight, size, and pressure rating as primary cost drivers
+<img src="Pics/Scatterplot.jpg" alt="Preprocessing" width="550"/>
 
-**3. Machine Learning Models & Techniques**
-- Model Development: Scikit-Learn (Linear Regression, K-Nearest Neighbors, Deep Learning)
-- Imputation Techniques: Iterative Imputer, KNN Imputer for handling missing data
-- Neural Network Implementation: TensorFlow, Keras for deep learning-based cost prediction
+### 3. Machine Learning Models & Techniques
+- **Imputation Techniques**: Iterative Imputer, KNN Imputer for handling missing data
+  <img src="Pics/Imputing missing costs.jpg" alt="Preprocessing" width="550"/>
+  
+- **Model Development**: Scikit-Learn (Linear Regression, K-Nearest Neighbors, Deep Learning)
+  <img src="Pics/Pipeline.jpg" alt="Preprocessing" width="550"/>
+  <img src="Pics/Learning curves.jpg" alt="Preprocessing" width="550"/>
+  <img src="Pics/KNN.jpg" alt="Preprocessing" width="550"/>
+
+- **Neural Network Implementation**: TensorFlow, Keras for deep learning-based cost prediction
+  <img src="Pics/ML.jpg" alt="Preprocessing" width="550"/>
 
 ## Results & Impact
 - **Correlation Analysis**: Discovered key factors influencing cost (weight, size, pressure rating)
